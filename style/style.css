@@ -1,0 +1,84 @@
+/* general styling */
+:root {
+    --smaller: .50;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .logo img{
+    width: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 50px;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  #main-wrapper{
+    background-image: url(../image/banner\ \(1\).png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #main-wrapper{
+    background-color: #363c46;
+  }
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+    .logo img{
+      width:  55% !important;
+    }
+  }
+  .hover{
+    color: white;
+    transition: all .5s ease-in-out;
+  }
+  .hover:hover{
+    color:#dc3545;
+    transition: all .5s ease-in-out;
+  }
