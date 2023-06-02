@@ -8,8 +8,11 @@
     margin: 0;
     padding: 0;
   }
+
   .logo img{
-    width: 100%;
+    width: 30%;
+    display: block;
+    margin: 0 auto  ;
   }
   html, body {
     height: 100%;
@@ -50,13 +53,13 @@
     padding: 0 .5rem;
   }
   #main-wrapper{
-    background-image: url(../image/banner\ \(1\).png);
+    background-image: url('../image/banner\ \(1\).png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
   }
   #main-wrapper{
-    background-color: #363c46;
+    background-color: #363c46 !important;
   }
   @media all and (max-width: 768px) {
     h1 {
